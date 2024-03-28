@@ -1,0 +1,5 @@
+Birinchi satr 5
+Ikkinchi satr 4
+Uchinchi satr 3
+2
+1
