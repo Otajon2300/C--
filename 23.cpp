@@ -139,25 +139,25 @@
 
 // listning juft elementlari yig‘indisini hisoblang.
 
-#include <iostream>
-#include <list>
-using namespace std;
+// #include <iostream>
+// #include <list>
+// using namespace std;
 
-int main()
-{
-    list<int> myList = {378, 741, 1185, 4747, 9468, 2783, 541, 8564, 6412, 74109};
+// int main()
+// {
+//     list<int> myList = {378, 741, 1185, 4747, 9468, 2783, 541, 8564, 6412, 74109};
 
-    int sum = 0;
+//     int sum = 0;
 
-    for (auto son = myList.begin(); son != myList.end(); ++son)
-    {
-        if (*son % 2 == 0)
-        {
-            sum += *son;
-        }
-    }
+//     for (auto son = myList.begin(); son != myList.end(); ++son)
+//     {
+//         if (*son % 2 == 0)
+//         {
+//             sum += *son;
+//         }
+//     }
 
-    cout << "Juft sonlar yig'indisi: " << sum << endl;
+//     cout << "Juft sonlar yig'indisi: " << sum << endl;
 
-    return 0;
-}
+//     return 0;
+// }
